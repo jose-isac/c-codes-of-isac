@@ -3,7 +3,10 @@
 
 int main(void)
 {
-    printf("Enter item number: %d"); 
-    scanf("%d");
+    float price;
+    int item, day, month, year;
+    
+    printf("Enter item number: "); 
+    scanf("%d", &item);
     return EXIT_SUCCESS;
 }
