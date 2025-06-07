@@ -8,5 +8,9 @@ int main(void)
     
     printf("Enter item number: "); 
     scanf("%d", &item);
+    printf("Enter unit price: ");
+    scanf("%f", &price);
+    printf("Enter purchase date (mm/dd/yyyy): ");
+    scanf("%d/%d/%d", &day, &month, &year);
     return EXIT_SUCCESS;
 }
